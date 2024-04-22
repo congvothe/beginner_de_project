@@ -102,7 +102,3 @@ make infra-down # type in yes after verifying the changes TF will make
 ```
 
 This will stop all the AWS services. Please double-check this by going to the AWS UI S3, EC2, EMR, & Redshift consoles.
-
-## Contributing
-
-Contributions are welcome. If you would like to contribute you can help by opening a Github issue or putting up a PR.
