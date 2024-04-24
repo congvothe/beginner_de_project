@@ -36,7 +36,7 @@
 #
 # Feel free to modify this file to suit your needs.
 ---
-version: '2.7.0'
+version: '2.9.0'
 x-airflow-common:
   &airflow-common
   build:
@@ -121,7 +121,7 @@ services:
       interval: 10s
       timeout: 10s
       retries: 5
-    restart: always
+    restart: nerver
 
   airflow-init:
     <<: *airflow-common
