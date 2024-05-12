@@ -121,7 +121,7 @@ services:
       interval: 10s
       timeout: 10s
       retries: 5
-    restart: nerver
+    restart: always
 
   airflow-init:
     <<: *airflow-common
