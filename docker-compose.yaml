@@ -71,7 +71,7 @@ x-airflow-common:
 services:
   postgres:
     container_name: postgres
-    image: postgres:16.2
+    image: postgres:16
     environment:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
