@@ -2,11 +2,11 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 4.16"
+      version = "~> 5.55.0"
     }
     redshift = {
       source  = "brainly/redshift"
-      version = "1.0.2"
+      version = "1.7.0"
     }
   }
 
